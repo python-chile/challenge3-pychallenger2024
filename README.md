@@ -4,7 +4,7 @@ Desafío 3: Camilo, el marino de telecomunicaciones
 Camilo es un marino encargado de la radio en el acorozado del que es parte. Acaba de recibir un importante mensaje encriptado. El algoritmo de desencriptación es el siguiente:
 * Modifica cada letra por su consecutiva, es decir la letra "A" debe cambiarse por "B". El último caracter de un rango pasa a ser el primero del siguiente (Ver tabla debajo), por ejemplo "Z" pasa a ser "a", "z" pasa a ser "Á", 9 para a ser "A", etc.
 * Elimina los 5 caracteres más populares del mensaje (sensible a mayusculas)
-* Los 2 caracteres más populares siguientes se cambian por espacio (los espacios consecutivos pasan a ser 1)
+* Los 2 caracteres más populares siguientes se cambian por espacio (los espacios consecutivos pasan a ser un espacio)
 Los caracteres que contiene el mensaje está en estos rangos:
 
 | Caracter |Código Unicode|
