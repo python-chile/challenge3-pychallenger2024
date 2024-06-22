@@ -33,10 +33,13 @@ Luego descubrirás que el mensaje contiene nombres de entidades, profesiones y e
 Implementa función decrypt_message en utils.py recibiendo como parámetro el mensaje encriptado y retornando el string desencriptado
 ## Parte 2: Clasifica morfologicamente las palabras
 Implementa función categorize_words en utils.py para categorizar las palabras morfólogicamente (Sugerencia: Usar biblioteca spacy y propiedades pos_ o tag_ de los tokens), retornando una lista de tuplas de 2 items, donde el primer elemento es la palabra y el segundo el tipo morfológico.
+
+Spacy models: https://spacy.io/models/es
+
 ## Parte 3: Listar información
 Implementar función list_info en utils.py que recibe como parámetro el string encriptado y retorna un diccionario cuya claves son nombres de entidades (lista de PROPN) y valores otro diccionario con 2 items:
-* Profession: Profesión de la persona (lista de NOUN y ADJ, es decir sustantivos y adjetivos. Se omiten sustantivos extras como años en los mensajes)
-* Age: Edad de la persona (número observado)
+* profession: Profesión de la persona (lista de NOUN y ADJ, es decir sustantivos y adjetivos. Se omiten sustantivos extras como años en los mensajes)
+* age: Edad de la persona (número observado)
 
 Una buena idea para separar entidades es observar los signos de puntuación.
 
