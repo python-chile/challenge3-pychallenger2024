@@ -6,6 +6,7 @@ Camilo es un marino encargado de la radio en el acorozado del que es parte. Acab
 * Elimina los 5 caracteres más populares del mensaje (sensible a mayusculas)
 * Los 2 caracteres más populares siguientes se cambian por espacio (los espacios consecutivos pasan a ser 1)
 Los caracteres que contiene el mensaje está en estos rangos:
+
 | Caracter |Código Unicode|
 |-|-|
 |,|44|
